@@ -1,0 +1,120 @@
+[
+    {
+        "category": "Terrains géotechniques",
+        "services": [
+            {
+                "nom": "Évaluation environnementale de site (Phase 1)"
+            },
+            {
+                "nom": "Caractérisation environnementale (Phase 2)"
+            },
+            {
+                "nom": "Caractérisation environnementale (Phase 3)"
+            },
+            {
+                "nom": "Enlèvement de réservoir"
+            },
+            {
+                "nom": "Décontamination des sols et de l'eau souterraine"
+            },
+            {
+                "nom": "Traçabilité des sols contaminés"
+            },
+            {
+                "nom": "Vérification/Audit de Conformité Environnementale (VCE)"
+            },
+            {
+                "nom": "Capacité portante"
+            },
+            {
+                "nom": "Stabilité de talus"
+            },
+            {
+                "nom": "Contrôle de fonds d'excavation"
+            },
+            {
+                "nom": "Géophysique"
+            }
+        ]
+    },
+    {
+        "category": "Bâtiment",
+        "services": [
+            {
+                "nom": "Contamination de plomb"
+            },
+            {
+                "nom": "Analyse de MIUF"
+            },
+            {
+                "nom": "Test de présence d'amiante en immeuble"
+            },
+            {
+                "nom": "Inspection moisissure"
+            },
+            {
+                "nom": "Inspection de radon en immobilier"
+            },
+            {
+                "nom": "Test pour Biphényles Polychlorés (BPC)"
+            },
+            {
+                "nom": "Décontamination d'amiante"
+            },
+            {
+                "nom": "Décontamination de moisissures"
+            }
+        ]
+    },
+    {
+        "category": "Autorisation",
+        "services": [
+            {
+                "nom": "Demande de certificat d'autorisation en environnement"
+            },
+            {
+                "nom": "Déclaration de conformité environnementale"
+            },
+            {
+                "nom": "Plan de réhabilitation environnementale"
+            },
+            {
+                "nom": "Expertise légale en environnement"
+            }
+        ]
+    },
+    {
+        "category": "Milieu naturel",
+        "services": [
+            {
+                "nom": "Caractérisation des milieux naturels et zones humides"
+            },
+            {
+                "nom": "Caractérisation des espèces protégées"
+            },
+            {
+                "nom": "Inventaire de la faune et de la flore"
+            },
+            {
+                "nom": "Étude hydrogéologique"
+            }
+        ]
+    },
+    {
+        "category": "Terrain géotechnique",
+        "services": [
+            {
+                "nom": "Capacité portante"
+            },
+            {
+                "nom": "Stabilité de talus"
+            },
+            {
+                "nom": "Contrôle de fonds d'excavation"
+            },
+            {
+                "nom": "Géophysique"
+            }
+        ]
+    }
+]
