@@ -4,7 +4,7 @@ import BarreMenu from './BarreMenu';
 
 const Layout = () => {
   return (
-    <div>
+    <div className="flex justify-center">
         <BarreMenu />
       <main>
         <Outlet />
