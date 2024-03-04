@@ -10,6 +10,13 @@ import rea4 from './img/Rea4.jpg';
 import rea5 from './img/Rea5.jpg';
 import terrainEnviro from './img/terrainEnviro.jpg';
 import terrainGeo from './img/terrainGeo.jpg';
+import logoHeader from './img/logoHeader.png';
+import bgHeader from './img/bg-header.jpg';
+import linesHeader from './img/linesHeader.png'
+import strata from './img/STRATA.png';
+import separateurTexture from './img/separateurTexture.jpg';
+import linesStat from './img/linesStats.png';
+import geoArrangement from './img/geoArrangement.png';
 
 export { 
     imgAbout,
@@ -23,5 +30,12 @@ export {
     rea4,
     rea5,
     terrainEnviro,
-    terrainGeo
+    terrainGeo,
+    logoHeader,
+    bgHeader,
+    linesHeader,
+    strata,
+    separateurTexture,
+    linesStat,
+    geoArrangement
 };
