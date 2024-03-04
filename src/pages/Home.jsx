@@ -80,7 +80,7 @@ const Home = () => {
         <section className="py-32 w-[90%]">
           <div></div>
           <div>
-            <h2 className="h2">Nos <span className="text-tealPerso-200">services</span></h2>
+            <h2 className="h2">Noss <span className="text-tealPerso-200">services</span></h2>
             <h3 className="h3">Choisissez Strata Environnement & Géotechnique Inc. <br/> pour une tranquillité d'esprit totale.</h3>
             <p className="p">De l'évaluation à la décontamination, nous prenons en charge chaque étape, protégeant l'environnement et sécurisant votre demeure. Avec Strata comme partenaire dévoué, libérez-vous des soucis et concentrez-vous sur l'essentiel. Excellence garantie à chaque étape. Faites confiance à Strata pour des solutions sans souci.</p>
             <Button link="/services" contenu="Tous nos services" />
