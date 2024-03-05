@@ -17,6 +17,14 @@ import strata from './img/STRATA.png';
 import separateurTexture from './img/separateurTexture.jpg';
 import linesStat from './img/linesStats.png';
 import geoArrangement from './img/geoArrangement.png';
+import textureEau from './img/textureEau.png';
+import nosRea from './img/nosRea.png';
+import montmartre from './img/Montmartre.jpg';
+import chu from './img/chu_sainte_justine.jpg';
+import nationalShrine from './img/NationalShrine.jpg';
+import citemirabel from './img/citemirabel.jpg';
+import uqo from './img/uqo.jpg';
+import postuleztxt from './img/postulez_texte.png'
 
 export { 
     imgAbout,
@@ -37,5 +45,13 @@ export {
     strata,
     separateurTexture,
     linesStat,
-    geoArrangement
+    geoArrangement,
+    textureEau,
+    nosRea,
+    montmartre,
+    chu,
+    nationalShrine,
+    citemirabel,
+    uqo,
+    postuleztxt
 };

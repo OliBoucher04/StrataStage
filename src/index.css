@@ -10,12 +10,24 @@
     @apply text-2xl xl:text-4xl font-bold uppercase text-white;
 }
 
+.h2black {
+    @apply text-2xl xl:text-4xl font-bold uppercase text-black;
+}
+
 .h3 {
     @apply text-[18px] italic mt-4 mb-8 text-white;
 }
 
+.h3black {
+    @apply text-[18px] italic mt-4 mb-8 text-black;
+}
+
 .p {
     @apply text-[16px] xl:text-[21px] xl:leading-tight font-light text-white mb-8 xl:mb-10;
+}
+
+.pblack {
+    @apply text-[16px] xl:text-[21px] xl:leading-tight font-light text-black mb-8 xl:mb-10;
 }
 
 .stats {

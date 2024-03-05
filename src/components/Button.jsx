@@ -5,7 +5,7 @@ const Button = ({ link, contenu }) => {
     return (
       <Link
         to={link}
-        className="border-[2px] bg-tealPerso-300 bg-opacity-30 text-sm px-[28px] py-[14px] text-white font-bold"
+        className="border-[2px] bg-tealPerso-300 bg-opacity-30 text-sm px-[28px] py-[14px] text-white font-regular"
       >
         {contenu} | &rarr;
       </Link>
