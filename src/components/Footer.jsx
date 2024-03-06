@@ -16,7 +16,7 @@ const Footer = () => {
                 <img src={logoCouleur} alt="" className="w-[190px] -ml-10 lg:m-0 lg:mb-20" />
                 <div className="md:w-full">
 
-                    {/* MENU DESKTOP */}
+                    {/* FOOTER DESKTOP */}
                     <div className="hidden lg:flex text-white ">
                         <nav className="w-full">
                             <a href="#" className="titreMenu">Services</a>
@@ -94,7 +94,7 @@ const Footer = () => {
                         </nav>
                     </div>
 
-                    {/* MENU MOBILE */}
+                    {/* FOOTER MOBILE */}
                     <div className="lg:hidden mt-8">
                         <ul className="text-center">
                             <li className="mb-6">
