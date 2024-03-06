@@ -35,7 +35,7 @@ const BarreMenu = () => {
   }, []);
 
   return (
-    <section className={`fixed flex flex-row justify-center items-center w-full z-[100] px-3 md:px-6 py-4 xl:w-[100%] ${mobileMenuOpen ? "mobile-menu-open" : ""} ${scrolled ? 'bg-grayPerso-300 duration-300 ease-linear' : 'bg-transparent'}`}>
+    <section className={`fixed top-0 flex flex-row justify-center items-center w-full z-[100] px-3 md:px-6 py-4 xl:w-[100%] ${mobileMenuOpen ? "mobile-menu-open" : ""} ${scrolled ? 'bg-grayPerso-300 duration-300 ease-linear' : 'bg-transparent'}`}>
       <div className="flex w-[90%] justify-between items-center md:w-[95%] lg:w-[90%]">
         <img src={logoHeader} alt="" className="w-[190px] mr-8"/>
         <div className="md:w-full">
