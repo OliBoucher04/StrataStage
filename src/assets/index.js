@@ -25,6 +25,8 @@ import nationalShrine from './img/NationalShrine.jpg';
 import citemirabel from './img/citemirabel.jpg';
 import uqo from './img/uqo.jpg';
 import postuleztxt from './img/postulez_texte.png'
+import logoCouleur from './img/logoCouleur.png'
+import strataFooter from './img/STRATA_Icone_Blanc.png'
 
 export { 
     imgAbout,
@@ -53,5 +55,7 @@ export {
     nationalShrine,
     citemirabel,
     uqo,
-    postuleztxt
+    postuleztxt,
+    logoCouleur,
+    strataFooter
 };

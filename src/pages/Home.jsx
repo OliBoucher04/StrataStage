@@ -16,6 +16,7 @@ import {
 import Button from "../components/Button";
 import ItemService from "../components/ItemService";
 import ListeRealisation from "../components/ListeRealisation";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -152,17 +153,22 @@ const Home = () => {
 
 
       {/* CARRIÈRES */}
-      <section className="py-32 h-[350px] overflow-hidden lg:py-0 flex flex-row justify-center items-center">
-        <div className="w-[350px] h-full bg-tealPerso-300 hidden lg:block">
+      <section className="my-32 h-[400px] lg:h-[400px] xl:h-[500px] overflow-hidden md:my-0 flex flex-row justify-center items-center">
+        <div className="w-[350px] lg:w-[400px] xl:w-[500px] bg-tealPerso-300 hidden md:block">
           <img src={postuleztxt} alt="" />
         </div>
-        <div className="flex flex-row justify-center items-center w-[90%] lg:w-[50%] m-auto">
+        <div className="flex flex-row justify-center items-center w-[90%] md:w-[55%] lg:w-[50%] xl:w-[60%] m-auto md:px-4">
           <div className="hidden sm:block h-[100px] w-[10px] bg-tealPerso-300 mr-8"></div>
-          <div>
+          <div className="">
             <h2 className="h2black">Une carrière</h2>
             <h3 className="h3black">Rejoignez notre équipe dynamique et passionnée chez Strata Environnement & Géotechnique Inc.</h3>
             <p className="pblack">Nous sommes à la recherche de talents innovants qui partagent notre passion pour l'environnement. Si vous êtes prêt à faire la différence et à relever des défis stimulants, consultez nos opportunités d'emploi dès maintenant!</p>
-            <Button link="/services" contenu="Toutes nos réalisations" />
+            <Link
+              to="/"
+              className="border-[2px] border-tealPerso-200 text-sm px-[28px] py-[14px] text-tealPerso-200 font-regular"
+            >
+              Postulez maintenant | &rarr;
+            </Link>
           </div>
         </div>
       </section>
