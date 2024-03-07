@@ -1,6 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 const Service = () => {
     return (
-      <h1>Page de tous les services</h1>
+      <>
+      <h1>Page de toutes les cats</h1>
+<Outlet />
+</>
     );
   };
   

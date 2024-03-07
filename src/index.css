@@ -6,6 +6,10 @@
     @apply text-4xl xl:text-6xl font-bold uppercase text-white  mb-8 xl:mb-10;
 }
 
+.h1cat {
+    @apply text-2xl sm:text-4xl xl:text-5xl leading-none font-bold uppercase text-white mb-6 xl:mb-10;
+}
+
 .h2 {
     @apply text-2xl xl:text-4xl font-bold uppercase text-white;
 }
@@ -51,9 +55,17 @@
 }
 
 .catMenu {
-    @apply text-3xl font-bold text-white mb-6;
+    @apply text-3xl md:text-xl font-bold text-white md:uppercase mb-6 md:mb-0 w-[80%] border-t-2 md:border-t-0 md:border-b-2 pt-2 md:pt-0 md:pb-2 border-white;
 }
 
 .sousCatMenu {
-    @apply text-xl font-bold uppercase text-white;
+    @apply text-xl font-bold uppercase text-white mb-2;
+}
+
+.sousSousCatMenu {
+    @apply text-sm font-light text-gray-400 mb-2;
+}
+
+.filAriane {
+    @apply text-xs lg:text-sm font-medium text-tealPerso-300;
 }

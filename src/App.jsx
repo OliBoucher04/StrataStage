@@ -26,19 +26,15 @@ const App = () => {
         {
           path: 'service',
           element: <Service />,
-          children: [
-            {
-              path: ':id',
-              element: <CategorieService />,
-              children: [
-                {
-                  path: ':id',
-                  element: <ServiceSpecifique />
-                }
-              ]
-            }
-          ]
-        }
+        },
+        {
+          path: 'service/:id',
+          element: <CategorieService />
+        },
+        {
+          path: 'service/:id/:serviceid',
+          element: <ServiceSpecifique/>
+        },
       ]
     },
     {

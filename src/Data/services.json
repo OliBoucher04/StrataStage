@@ -1,107 +1,183 @@
 [
     {
-        "category": "Terrains géotechniques",
+        "category": "Terrains environnement",
+        "id": "terrain-environnement",
         "services": [
             {
-                "nom": "Évaluation environnementale de site (Phase 1)"
+                "nom": "Évaluation environnementale de site (Phase 1)",
+                "id": "evaluation-environnementale-phase1",
+                "video": "phase1_compressedDesaturate.mp4",
+                "description1": "Notre service d’évaluation environnementale de site (Phase 1) chez Strata Environnement & Géotechnique Inc. est le premier pas vers une compréhension approfondie de votre environnement. ",
+                "description2": "Nous analysons les risques potentiels, les antécédents environnementaux, et les caractéristiques du site pour fournir une base solide pour la prise de décision. Avec notre approche précise et notre engagement envers l’excellence, nous garantissons des évaluations fiables et complètes, essentielles pour des projets durables et respectueux de l’environnement.",
+                "images": [
+                    "biodiversite.jpg",
+                    "eau.jpg",
+                    "plan.jpg"
+                ],
+                "imgPrincipale": "lien_de_l_image_4",
+                "elements": [
+                    {
+                        "item": "Historique du site"
+                    },
+                    {
+                        "item": "Usage du terrain avoisinant"
+                    },
+                    {
+                        "item": "Caractéristiques géologiques et géotechniques"
+                    },
+                    {
+                        "item": "Présence de contaminants"
+                    },
+                    {
+                        "item": "Études hydrogéologiques"
+                    },
+                    {
+                        "item": "Zonage réglementaire"
+                    },
+                    {
+                        "item": "Évaluations des risques environnementaux"
+                    },
+                    {
+                        "item": "Études sur la biodiversité"
+                    },
+                    {
+                        "item": "Études sur les espèces protégées"
+                    },
+                    {
+                        "item": "Évaluation des impacts historiques et actuels"
+                    },
+                    {
+                        "item": "Caractéristiques topographiques"
+                    }
+                ]
             },
             {
-                "nom": "Caractérisation environnementale (Phase 2)"
+                "nom": "Caractérisation environnementale (Phase 2)",
+                "id": "caractérisation-environnementale-phase2"
             },
             {
-                "nom": "Caractérisation environnementale (Phase 3)"
+                "nom": "Caractérisation environnementale (Phase 3)",
+                "id": "caractérisation-environnementale-phase3"
             },
             {
-                "nom": "Enlèvement de réservoir"
+                "nom": "Enlèvement de réservoir",
+                "id": "enlevement-reservoir"
             },
             {
-                "nom": "Décontamination des sols et de l'eau souterraine"
+                "nom": "Décontamination des sols et de l'eau souterraine",
+                "id": "decontamination"
             },
             {
-                "nom": "Traçabilité des sols contaminés"
+                "nom": "Traçabilité des sols contaminés",
+                "id": "tracabilite-sols-contamines"
             },
             {
-                "nom": "Vérification/Audit de Conformité Environnementale (VCE)"
+                "nom": "Vérification/Audit de Conformité Environnementale (VCE)",
+                "id": "verification-audit-conformité-environnementale"
             }
         ]
     },
     {
         "category": "Bâtiment",
+        "id": "batiment",
         "services": [
             {
-                "nom": "Contamination de plomb"
+                "nom": "Contamination de plomb",
+                "id": "contamination-plomb"
             },
             {
-                "nom": "Analyse de MIUF"
+                "nom": "Analyse de MIUF",
+                "id": "analyse-miuf"
             },
             {
-                "nom": "Test de présence d'amiante en immeuble"
+                "nom": "Test de présence d'amiante en immeuble",
+                "id": "test-amiante-immeuble"
             },
             {
-                "nom": "Inspection moisissure"
+                "nom": "Inspection moisissure",
+                "id": "inspection-moisissure"
             },
             {
-                "nom": "Inspection de radon en immobilier"
+                "nom": "Inspection de radon en immobilier",
+                "id": "inspection-radon-immobilier"
             },
             {
-                "nom": "Test pour Biphényles Polychlorés (BPC)"
+                "nom": "Test pour Biphényles Polychlorés (BPC)",
+                "id": "test-biphenyles-polychlores"
             },
             {
-                "nom": "Décontamination d'amiante"
+                "nom": "Décontamination d'amiante",
+                "id": "decontamination-amiante"
             },
             {
-                "nom": "Décontamination de moisissures"
+                "nom": "Décontamination de moisissures",
+                "id": "decontamination-moisissures"
             }
         ]
     },
     {
         "category": "Autorisation",
+        "id": "autorisation",
         "services": [
             {
-                "nom": "Demande de certificat d'autorisation en environnement"
+                "nom": "Demande de certificat d'autorisation en environnement",
+                "id": "demande-certificat-autorisation-environnement"
             },
             {
-                "nom": "Déclaration de conformité environnementale"
+                "nom": "Déclaration de conformité environnementale",
+                "id": "declaration-conformite-environnementale"
             },
             {
-                "nom": "Plan de réhabilitation environnementale"
+                "nom": "Plan de réhabilitation environnementale",
+                "id": "plan-rehabilitation-environnementale"
             },
             {
-                "nom": "Expertise légale en environnement"
+                "nom": "Expertise légale en environnement",
+                "id": "expertise-legale-environnement"
             }
         ]
     },
     {
         "category": "Milieu naturel",
+        "id": "milieu-naturel",
         "services": [
             {
-                "nom": "Caractérisation des milieux naturels et zones humides"
+                "nom": "Caractérisation des milieux naturels et zones humides",
+                "id": "caracterisation-milieux-naturels-zones-humides"
             },
             {
-                "nom": "Caractérisation des espèces protégées"
+                "nom": "Caractérisation des espèces protégées",
+                "id": "caracterisation-especes-protegees"
             },
             {
-                "nom": "Inventaire de la faune et de la flore"
+                "nom": "Inventaire de la faune et de la flore",
+                "id": "inventaire-faune-flore"
             },
             {
-                "nom": "Étude hydrogéologique"
+                "nom": "Étude hydrogéologique",
+                "id": "etude-hydrogeologique"
             }
         ]
     },
     {
         "category": "Terrain géotechnique",
+        "id": "terrain-geotechnique",
         "services": [
             {
-                "nom": "Capacité portante"
+                "nom": "Capacité portante",
+                "id": "capacite-portante"
             },
             {
-                "nom": "Stabilité de talus"
+                "nom": "Stabilité de talus",
+                "id": "stabilite-talus"
             },
             {
-                "nom": "Contrôle de fonds d'excavation"
+                "nom": "Contrôle de fonds d'excavation",
+                "id": "controle-fonds-excavation"
             },
             {
-                "nom": "Géophysique"
+                "nom": "Géophysique",
+                "id": "geophysique"
             }
         ]
     }
