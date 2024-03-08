@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import servicesData from "../Data/services.json";
-import { videoHeader } from "../assets";
+import { videoHeader, environnement, linesService } from "../assets";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Button from '../components/Button'
 
@@ -45,10 +45,10 @@ const ServiceSpecifique = () => {
         <div className="hidden md:block w-[400px] h-screen bg-tealPerso-300 absolute right-0 top-0"></div>
         <div className="flex justify-between flex-col md:flex-row items-center md:w-[90%] xl:w-[80%]">
           <div className="relative">
-            <video src={videoHeader} muted autoPlay className="h-[70vh] sm:h-[60vh] xl:h-[70vh] object-cover w-screen md:w-[80vw] md:h-[50vh] -z-2" />
+            <video src={videoHeader} muted autoPlay className="h-[70vh] sm:h-[60vh] xl:h-[70vh] object-cover w-screen md:w-[80vw] md:h-[50vh] xl:w-[75vw] -z-2" />
             <div className="h-[15vw] sm:h-[20vh] w-full bg-tealPerso-300 bg-opacity-70 absolute z-[50] -bottom-[8vw] sm:-bottom-16 md:bottom-0 md:left-0 md:w-[10%] md:h-full"></div>
           </div>
-          <div className="z-[70] relative w-[90%] md:absolute md:flex flex-col justify-end items-end">
+          <div className="z-[70] relative w-[90%] xl:w-[80%] md:absolute md:flex flex-col justify-end items-end">
             <h1 className="h1cat border-b-4 border-white pb-6 md:w-[50%]">{serviceSpecifique.nom}</h1>
             <p className="text-right md:text-left md:w-[50%]">{categorie.category}</p>
           </div>
@@ -56,10 +56,12 @@ const ServiceSpecifique = () => {
       </header>
 
       {/* À PROPOS DE CE SERVICE */}
-      <section className="flex flex-col justify-center items-center py-32">
+      <section className="flex flex-col lg:flex-row justify-center items-center py-32 lg:py-0 relative overflow-hidden">
+        <img src={environnement} alt="text-environnement-arrangement" className="absolute md:-right-10 w-[100%] md:w-[70%] lg:w-[50%]"/>
+        <img src={linesService} alt="lines" className="h-full w-36 mr-10 hidden lg:block "/>
       <div className="flex flex-row justify-center items-center w-[90%]">
         <div className="hidden sm:block h-[100px] w-[5px] bg-tealPerso-300 mr-8"></div>
-          <div>
+          <div className="w-[90%]">
             <h2 className="h2black">Comment ça marche?</h2>
             <h3 className="h3black">{serviceSpecifique.nom}</h3>
             <p className="text-[16px] xl:text-[21px] xl:leading-tight font-light text-black mb-4">{serviceSpecifique.description1}</p>

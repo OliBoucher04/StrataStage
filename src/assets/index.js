@@ -29,6 +29,8 @@ import logoCouleur from './img/logoCouleur.png'
 import strataFooter from './img/STRATA_Icone_Blanc.png'
 import imgMenu from './img/imgMenu.png'
 import videoHeader from './img/phase1_compressedDesaturate.mp4'
+import linesService from './img/linesService.png'
+import environnement from './img/environnement.png'
 
 export { 
     imgAbout,
@@ -61,5 +63,7 @@ export {
     logoCouleur,
     strataFooter,
     imgMenu,
-    videoHeader
+    videoHeader,
+    linesService,
+    environnement
 };
